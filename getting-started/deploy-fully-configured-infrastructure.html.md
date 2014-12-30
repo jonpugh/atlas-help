@@ -36,7 +36,7 @@ Make sure your Terraform configuration only has the above information, and run `
 
 	Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
-Now, let's combine the artifact with the [terraform configuration written in the first step](/help/getting-started/layout-infrastructure). 
+Now, let's combine the artifact with the [Terraform configuration written in the first step](/help/getting-started/layout-infrastructure). 
 
 The complete Terraform configuration should now look as below. 
 
@@ -96,7 +96,7 @@ The complete Terraform configuration should now look as below.
 
 Notice in the `aws_instance` resource now references the artifact stored in Atlas. The web resource has an additional field `security_groups`, which references the security group that allows traffic to access the servers.
 
-Now, when you run `terraform apply`, it will reference the proper AMI stored in Atlas that is configured with apache.
+Now, when you run `terraform apply`, it will reference the proper AMI stored in Atlas that is configured with Apache.
 
 	$ terraform apply
 	...
