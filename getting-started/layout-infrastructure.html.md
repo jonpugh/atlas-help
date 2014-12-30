@@ -74,7 +74,7 @@ The prefix of the type maps to the provider. In our case
 "aws\_instance" automatically tells Terraform that it is
 managed by the "aws" provider.
 
-**Note:** For simplicity, we setup the AWS load balancer over http. However, we recommend https in production environments.
+**Note:** For simplicity, we setup the AWS load balancer over HTTP. However, we recommend HTTPS in production environments.
 
 Within the resource block itself is configuration for that
 resource. This is dependent on each resource provider and

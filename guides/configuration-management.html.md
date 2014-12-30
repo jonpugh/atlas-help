@@ -6,4 +6,4 @@ Atlas works with existing configuration management in one of two ways. First, te
 
 More information about using configuration management to build images can be found in the [Packer documentation for building images](http://www.packer.io/docs/basics/terminology.html#Provisioners).
 
-More information about using configuration management to setup a resource after it has been created can be found in the [Terraform documenation for provisioners](https://www.terraform.io/docs/provisioners/index.html).   
+More information about using configuration management to setup a resource after it has been created can be found in the [Terraform documentation for provisioners](https://www.terraform.io/docs/provisioners/index.html).   

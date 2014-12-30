@@ -15,7 +15,7 @@ username.
 3. Put the username of the personal account you wish to make an owner
 of the organization into the username text field and press "Migrate".
 
-4. You should now be logged out and recieve a confirmation email with
+4. You should now be logged out and receive a confirmation email with
 the personal account you migrated to.
 
 5. Now, sign in with your personal account. If you visit the organizations

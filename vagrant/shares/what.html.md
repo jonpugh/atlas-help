@@ -4,7 +4,7 @@ title: "What are Shares?"
 # What are Shares?
 
 Shares let you share access to a running Vagrant environment with anyone,
-on any network connected to the internet.
+on any network connected to the Internet.
 
 There are several different types of shares.
 
@@ -23,7 +23,7 @@ and doesn't require Vagrant to be installed to access -- just a web browser.
 
 Once the share is created, a relatively obscure URL is outputted. This URL
 will route directly to your Vagrant environment; it doesn't matter if you
-or accessing party is behing a firewall or NAT.
+or accessing party is behind a firewall or NAT.
 
 Currently, HTTP access is restricted through obscure URLs. We'll be adding
 more ACLs and audit logs for this in the future.

@@ -68,7 +68,7 @@ Now that the application is stored in Atlas, we can reference the data in the bu
 	    ]
 	}
 
-The new `file` provisioner takes the application code stored in Atlas and packages it with the artifact output of the build configuration. In the `shell` provisioner the line `sudo mv /tmp/app/* /var/www/` was added to move the application code to apache's web root. Now run `packer push` in the directory with example-template.json to rebuild the artifacts with your application code merged in. 
+The new `file` provisioner takes the application code stored in Atlas and packages it with the artifact output of the build configuration. In the `shell` provisioner the line `sudo mv /tmp/app/* /var/www/` was added to move the application code to Apache's web root. Now run `packer push` in the directory with example-template.json to rebuild the artifacts with your application code merged in. 
 
 	$ packer push example-template.json
 	Push successful to 'hashicorp/example-build-configuration'

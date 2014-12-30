@@ -8,7 +8,7 @@ title: "How to Set-up Custom Share Domains"
 
 ## Steps
 
-1. Add the domain you want to use and have adminstrative control over, like
+1. Add the domain you want to use and have administrative control over, like
 `myvagrantshare.example.com`, to your share settings for either your [personal](/account/share)
 upgraded account or one of your [organizations](/organizations)
 2. Create a DNS CNAME record for the domain with a leading asterisk, e.g `*.myvagrantshare.example.com` pointing to `share.vagrantcloud.com` (note the leading asterisk)

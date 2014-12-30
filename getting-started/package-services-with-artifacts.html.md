@@ -9,7 +9,7 @@ Services are deployed using an artifact which can be created at different granul
 An artifact could be an ISO for a physical machine, VM image, AWS AMI, or Docker container.
 For example you can create AWS AMI for a web service, database, load balancer, etc.
 A Packer template defines what software is installed on the machine image.
-Below is the Packer template from the [example repo](https://github.com/hashicorp/atlas-examples/tree/master/getting-started) that creates an AMI for a web server with apache installed:
+Below is the Packer template from the [example repo](https://github.com/hashicorp/atlas-examples/tree/master/getting-started) that creates an AMI for a web server with Apache installed:
 
 	{
 	    "builders": [{
@@ -51,7 +51,7 @@ If you haven't already, create an AWS account to complete the walkthrough. For t
 Packer can build images for many platforms other than AWS, but AWS requires no additional software installed on your computer and their free-tier makes it free to use for most people. This is why we chose to use AWS for the example.
 
 The access keys and Atlas token are hardcoded in this example, but you can pass them in as
-[user variables](https://packer.io/docs/templates/user-variables.html) if prefered
+[user variables](https://packer.io/docs/templates/user-variables.html) if preferred
 to keep your secret keys out of the template. If you haven't already, [create an Atlas account](https://atlas.hashicorp.com/create) to get a token.
 
 ## Builders
@@ -114,7 +114,7 @@ started guide. It is covered in more detail in the complete
 
 The one provisioner we defined has a type of `shell`. This provisioner
 ships with Packer and runs shell scripts on the running machine. In our
-case, we specify inline commands to run in order to install apache.
+case, we specify inline commands to run in order to install Apache.
 
 **Note:** The `sleep 30` in the example above is very important. Because Packer is able to detect and SSH into the instance as soon as SSH is available, Ubuntu actually doesn't get proper amounts of time to initialize. The sleep makes sure that the OS properly initializes. It's also very important to pass `-y` into the install command, otherwise the build will run indefinitely waiting for a user confirmation.
 
