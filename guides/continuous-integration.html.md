@@ -12,11 +12,11 @@ Continuous integration tools like Jenkins or CircleCI are simple to integrate in
 	  	SCRIPT
 	end
 
-Once the tests pass in your CI tool, pass the application slug back to Atlas:
+Once the tests pass in your CI tool, pass the application slug back to Atlas using the [Atlas Upload CLI](https://github.com/hashicorp/atlas-upload-cli):
 
-	$ atlas app path
+	$ atlas-upload app path
 
-"App" is the name of the application to upload to within Atlas.
+"App" is the name of the application to upload to within Atlas. For example, "hashicorp/bar".
 If path is a directory, it will be compressed (gzip tar) and uploaded
 in its entirety. The root of the archive will be the path. For clarity:
 if you upload the "foo/" directory, then the file "foo/version" will be
