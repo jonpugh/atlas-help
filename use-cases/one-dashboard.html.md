@@ -1,5 +1,6 @@
 ---
 title: "One Dashboard"
+previous: "use-cases/one-workflow"
 ---
 # Use one dashboard to monitor and maintain infrastructure on any infrastructure
 

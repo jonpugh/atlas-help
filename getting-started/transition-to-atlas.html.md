@@ -1,5 +1,6 @@
 ---
 title: "Transitioning your Infrastructure to Atlas"
+previous: "getting-started/run-your-application"
 ---
 ## Transitioning your infrastructure to Atlas
 In this tutorial we went through 3 steps to deploy an application and infrastructure with Atlas: 

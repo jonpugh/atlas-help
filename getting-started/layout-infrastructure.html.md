@@ -1,5 +1,6 @@
 ---
 title: "Layout infrastructure with a Terraform configuration"
+previous: "getting-started/getting-started-overview"
 next: "getting-started/package-services-with-artifacts"
 ---
 [After reading how the pieces of Atlas fit together](/help/getting-started/getting-started-overview), it’s time to dig in and understand the constituent parts themselves and how to build them.

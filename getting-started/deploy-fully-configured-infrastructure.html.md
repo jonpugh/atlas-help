@@ -1,5 +1,7 @@
 ---
 title: "Deploy fully configured infrastructure"
+previous: "getting-started/package-services-with-artifacts"
+next: "getting-started/run-your-application"
 ---
 ## Recap
 Before we deploy fully configured infrastructure, let's review what has already been done in the [getting started guide](/help/getting-started/getting-started-overview). First, we learned how to layout and deploy basic infrastructure with Terraform. Then we learned how to build configured machine images with Packer. Now we want to combine the two — layout and deploy fully configured infrastructure!

@@ -1,5 +1,7 @@
 ---
 title: "Hybrid-cloud Deployments"
+previous: "use-cases/migrate-to-cloud"
+next: "use-cases/one-workflow"
 ---
 # Hybrid-cloud Deployments
 

@@ -1,5 +1,6 @@
 ---
 title: "Overview: Launching 2-tier infrastructure on AWS"
+next: "getting-started/layout-infrastructure"
 ---
 ## Overview
 

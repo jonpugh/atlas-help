@@ -1,5 +1,7 @@
 ---
 title: "Run your application on infrastructure"
+previous: "getting-started/deploy-fully-configured-infrastructure"
+next: "getting-started/transition-to-atlas"
 ---
 ## Configure a Vagrantfile to push to Atlas
 [In the previous step, we deployed fully configured infrastructure on AWS](/help/getting-started/deploy-fully-configured-infrastructure). Now we'll learn how to deploy your application on that infrastructure. 
