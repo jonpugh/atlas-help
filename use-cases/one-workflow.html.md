@@ -1,5 +1,7 @@
 ---
-title: "One Workflow"
+title: "Use one workflow from development to production"
+previous: "use-cases/hybrid-cloud-deployments"
+next: "use-cases/one-dashboard"
 ---
 # Use one workflow to move from development to production
 

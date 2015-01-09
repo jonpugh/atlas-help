@@ -1,5 +1,7 @@
 ---
 title: "Deploy fully configured infrastructure"
+previous: "getting-started/package-services-with-artifacts"
+next: "getting-started/run-your-application"
 ---
 ## Recap
 Before we deploy fully configured infrastructure, let's review what has already been done in the [getting started guide](/help/getting-started/getting-started-overview). First, we learned how to layout and deploy basic infrastructure with Terraform. Then we learned how to build configured machine images with Packer. Now we want to combine the two — layout and deploy fully configured infrastructure!
@@ -112,4 +114,4 @@ Now, when you run `terraform apply`, it will reference the proper AMI stored in 
 
 	...
 
-That's it! You now have a fully functional 2-tier infrastructure running on AWS. [Up next we'll learn how to get application code on all of your servers](/help/getting-started/run-your-application).
+That's it! You now have a fully functional 2-tier infrastructure running on AWS. Up next we'll learn how to get application code on all of your servers.

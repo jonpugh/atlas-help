@@ -1,5 +1,6 @@
 ---
 title: "Overview: Launching 2-tier infrastructure on AWS"
+next: "getting-started/layout-infrastructure"
 ---
 ## Overview
 
@@ -34,4 +35,4 @@ To get started, create a directory named "atlas-example" with the below folders 
 		|-- index.html
 		|-- Vagrantfile
 
-The ops folder contains all the configurations to deploy your application, and the app folder contains the application code and Vagrantfile which pushes the application code to Atlas. Each file and step will be explained in detail, [starting with laying out and deploying infrastucture with Terraform](/help/getting-started/layout-infrastructure).
+The ops folder contains all the configurations to deploy your application, and the app folder contains the application code and Vagrantfile which pushes the application code to Atlas. Each file and step will be explained in detail, starting with laying out and deploying infrastucture with Terraform.

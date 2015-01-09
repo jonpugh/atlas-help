@@ -190,4 +190,4 @@ If the build fails, read the output logs in the Atlas dashboard to debug the iss
 
 ![Artifact](/help-images/artifact.png)
 
-Congratulations! You've just built your first image with Packer and stored it in Atlas. [Now let's deploy the artifact](/help/getting-started/deploy-fully-configured-infrastructure)!
+Congratulations! You've just built your first image with Packer and stored it in Atlas. Now let's deploy the artifact!
