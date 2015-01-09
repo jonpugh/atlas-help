@@ -114,4 +114,4 @@ Now, when you run `terraform apply`, it will reference the proper AMI stored in 
 
 	...
 
-That's it! You now have a fully functional 2-tier infrastructure running on AWS. [Up next we'll learn how to get application code on all of your servers](/help/getting-started/run-your-application).
+That's it! You now have a fully functional 2-tier infrastructure running on AWS. Up next we'll learn how to get application code on all of your servers.

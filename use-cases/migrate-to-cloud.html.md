@@ -1,9 +1,9 @@
 ---
-title: "Migrate to the Cloud"
+title: "Migrate your infrastructure to the cloud"
 previous: "use-cases/adopt-devops"
 next: "use-cases/hybrid-cloud-deployments"
 ---
-# Migrate your Infrastructure to the Cloud
+# Migrate your infrastructure to the cloud
 
 The flexibility and scalability of cloud infrastructure is attractive as it allows companies to pay only for what computing resources they use. While physical datacenters may be less expensive if used efficiently, oftentimes the resource use is not optimal and results in excess cost. Although the cloud has many benefits for companies stuck on physical servers, the difficult transition process to the cloud is an overwhelming obstacle to migration. The process can't be a binary change - one day on physical servers and the next completely in the cloud - it must be gradual.
 

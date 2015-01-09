@@ -210,4 +210,4 @@ You can also view Terraform state information in your [Atlas dashboard](http://a
 ## Next
 
 The EC2 instances we launched at this point are based on the AMI
-given, but has no additional software installed. [Now let's create an image that defines a web server, so Terraform can then deploy it](/help/getting-started/package-services-with-artifacts).
+given, but has no additional software installed. Now let's create an image that defines a web server, so Terraform can then deploy it.

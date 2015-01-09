@@ -102,4 +102,4 @@ If the apply fails, be sure to first apply the artifact first, then the full inf
 Now when you go to the public_dns of the load balancer, you'll be able to interact with your application! It may take a minute or two for the instances to pass health checks and register with the load balancer. If you want to bring down your infrastructure, simply run `terraform destroy` and the instances will be terminated. 
 
 ## How to start transitioning your infrastructure to Atlas
-Now that we've completed the walkthrough, [learn how to transition your own infrastructure and application delivery to Atlas](/help/getting-started/transition-to-atlas)! 
+Now that we've completed the walkthrough, learn how to transition your own infrastructure and application delivery to Atlas!
