@@ -1,5 +1,7 @@
 ---
 title: "Package Services with Artifacts"
+previous: "getting-started/layout-infrastructure"
+next: "getting-started/deploy-fully-configured-infrastructure"
 ---
 [In the previous step EC2 instances were launched](/help/getting-started/layout-infrastructure), but with base AMIs without software configured. Now we'll learn how to configure AMIs with the proper software installed and deploy them.
 
