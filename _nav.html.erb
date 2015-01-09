@@ -1,0 +1,67 @@
+<ul class="docs-nav-list">
+
+    <li class="<%= "active" if help_active?("getting-started") %>">
+        <h3 class="h4"><%= help_link "Getting Started Tutorial", "getting-started/getting-started-overview" %></h3>
+        <ul>
+            <li><%= help_link "Overview: Launching an application on 2-tier AWS infrastructure", "getting-started/getting-started-overview" %></li>
+            <li><%= help_link "Step 1: Layout and deploy infrastructure with Terraform", "getting-started/layout-infrastructure" %></li>
+            <li><%= help_link "Step 2: Package services with artifacts using Packer", "getting-started/package-services-with-artifacts" %></li>
+            <li><%= help_link "Step 3: Deploy fully configured infrastructure", "getting-started/deploy-fully-configured-infrastructure" %></li>
+            <li><%= help_link "Step 4: Run your application on infrastructure", "getting-started/run-your-application" %></li>
+            <li><%= help_link "How to start transitioning your stack to Atlas", "getting-started/transition-to-atlas" %></li>
+        </ul>
+    </li>
+
+    <li class="<%= "active" if help_active?("use-cases") %>">
+        <h3 class="h4"><%= help_link "Use Cases", "use-cases/adopt-devops" %></h3>
+        <ul>
+            <li><%= help_link "Adopt DevOps in your organization", "use-cases/adopt-devops" %></li>
+            <li><%= help_link "Migrate your infrastructure to the cloud", "use-cases/migrate-to-cloud" %></li>
+            <li><%= help_link "Hybrid-cloud deployments", "use-cases/hybrid-cloud-deployments" %></li>
+            <li><%= help_link "Use one workflow to move from development to production on any infrastructure", "use-cases/one-workflow" %></li>
+            <li><%= help_link "Use one dashboard to monitor and maintain infrastructure on any infrastructure", "use-cases/one-dashboard" %></li>
+        </ul>
+    </li>
+
+    <li class="<%= "active" if help_active?("comparison") %>">
+        <h3 id="comparison" class="h4"><%= help_link "Atlas vs Other Software", "comparison/paas" %></h3>
+        <ul>
+            <li><%= help_link "Platform-as-a-Service (PaaS) - Heroku, CloudFoundry, etc", "comparison/paas" %></li>
+            <li><%= help_link "Public Cloud - AWS, GCE, Rackspace, etc", "comparison/public-cloud" %></li>
+            <li><%= help_link "Configuration Management - Puppet, Chef, Ansible, Salt, etc", "comparison/configuration-management" %></li>
+            <li><%= help_link "Infrastructure Management - CloudFormation, Heat, etc", "comparison/infrastructure-management" %></li>
+            <li><%= help_link "HashiCorp Open Source Software - Vagrant, Packer, Consul, Terraform", "comparison/hashicorp-oss" %></li>
+        </ul>
+    </li>
+
+    <li class="<%= "active" if help_active?("guides") %>">
+        <h3 id="guides" class="h4"><%= help_link "Guides: How to use Atlas with your existing services", "guides/continuous-integration" %></h3>
+        <ul>
+            <li><%= help_link "How to use Atlas with continuous integration", "guides/continuous-integration" %></li>
+            <li><%= help_link "How to use Atlas with GitHub", "guides/version-control" %></li>
+            <li><%= help_link "How to use Atlas with containers", "guides/containers" %></li>
+            <li><%= help_link "How to use Atlas with configuration management tools", "guides/configuration-management" %></li>
+            <li><%= help_link "How to use Atlas with public cloud providers", "guides/public-cloud" %></li>
+        </ul>
+    </li>
+
+    <li class="<%= "active" if help_active?("documentation") %>">
+        <h3 class="h4"><%= help_link "Documentation", "documentation/applications-and-dev-environments" %></h3>
+        <ul>
+            <li><%= help_link "Applications and Development Environments", "documentation/applications-and-dev-environments" %></li>
+            <li><%= help_link "Artifacts and Services", "documentation/artifacts" %></li>
+            <li><%= help_link "Infrastructure Layout and Creation", "documentation/infrastructure-layout" %></li>
+            <li><%= help_link "Infrastructure Monitoring and Health", "documentation/infrastructure-monitoring" %></li>
+        </ul>
+    </li>
+
+    <li class="<%= "active" if help_active?("account-management") %>">
+        <h3 class="h4"><%= help_link "Account Management", "account-management/vagrant-1-7" %></h3>
+        <ul>
+            <li><%= help_link "Installing Vagrant 1.7", "account-management/vagrant-1-7" %></li>
+            <li><%= help_link "Organization Accounts", "account-management/organizations" %></li>
+            <li><%= help_link "Migrate Organization", "account-management/migrate-organization" %></li>
+        </ul>
+    </li>
+
+</ul>

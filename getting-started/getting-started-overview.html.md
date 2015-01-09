@@ -24,7 +24,7 @@ It's important to note that each of these steps is connected with a public API. 
 ## Getting Started with Atlas
 This walkthrough will show a simple example of deploying an application and configured infrastructure with Atlas. The first step is laying out and deploying basic infrastructure with Terraform. The next step is building configured machine images with Packer. The final step combines the two — layout and deploy fully configured infrastructure!
 
-To get started, create a directory named "atlas-example" with the below folders and files. You can also [clone our example repo here](https://github.com/hashicorp/atlas-examples). 
+To get started, create a directory named "atlas-example" with the below folders and files. You can also [clone our example repo here](https://github.com/hashicorp/atlas-examples).
 
 	atlas-example
 	|-- ops
