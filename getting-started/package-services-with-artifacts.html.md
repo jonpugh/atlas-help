@@ -60,8 +60,8 @@ to keep your secret keys out of the template. If you haven't already, [create an
 
 	"builders": [{
 		"type": "amazon-ebs",
-		"access_key" = "ACCESS_KEY_HERE",
-		"secret_key" = "SECRET_KEY_HERE",
+		"access_key": "ACCESS_KEY_HERE",
+		"secret_key": "SECRET_KEY_HERE",
 		"region": "us-east-1",
 		"source_ami": "ami-de0d9eb7",
 		"instance_type": "t1.micro",
