@@ -17,14 +17,28 @@ for use with Vagrant is simple.
 1. Go to the [Create Box](/boxes/new) page.
 
 1. Follow the instructions for creating a box that are shown. You'll need
-   to create a box, create a version for that box, and then add at least one
-   provider to that box. Follow the forms and they'll guide you through it. Every
+   to create a box, create a version for that box, add a
+   provider to that box, and finally relase the box for use.
+   Follow the forms and they'll guide you through it. Every
    box on Atlas must have the box file itself, a version, and at least one provider.
 
-1. After adding a provider, click the "Update provider" button to release the
-   box. This will make it available for Vagrant. You can find all your boxes
-   in the [development tab](/development) of Atlas under the "Boxes" header in the 
-   left navigation bar.
+Create box:
+![Create box](/help-images/vagrant-create-box.png)
+
+Add version:
+![Add version](/help-images/vagrant-new-box-version.png)
+
+Add provider:
+![Add provider](/help-images/vagrant-create-provider.png)
+
+Upload box:
+![Upload box](/help-images/edit-box-provider.png)
+
+Release box:
+
+
+You can find all your boxes in the [development tab](/development)
+of Atlas under the "Boxes" header in the left navigation bar.
 
 Once you've created and released a box, you can release new versions of
 the box by clicking "Create New Version" under the versions dropdown of
