@@ -1,18 +1,18 @@
 ---
-title: "Creating a New Box"
+title: "Using Atlas to Store and Distribute Vagrant Boxes"
 ---
-# Creating a New Box
+# Using Atlas to store and distribute Vagrant boxes
 
-Atlas by HashiCorp makes it simple to upload and share Vagrant boxes.
+Atlas by HashiCorp makes it simple to upload and share Vagrant boxes. 
 This page will cover creating a new box on Atlas and how to distribute it to users.
 It does not cover creating the actual physical "box" file. For that, please read the
 [Vagrant documentation on creating base boxes](http://docs.vagrantup.com/v2/boxes/base.html).
-Or start with a community-built Vagrant box, which you can search for on our [Discover page](/discover).
 
 Once you've created the physical box file, adding it to Atlas
 for use with Vagrant is simple.
 
-1. [Sign up](/account/new) for an Atlas account if you haven't already, and login.
+1. [Sign up](/account/new) and log in with an account to Atlas, if you haven't
+   already.
 
 1. Go to the [Create Box](/boxes/new) page.
 
@@ -23,10 +23,23 @@ for use with Vagrant is simple.
 
 1. After adding a provider, click the "Update provider" button to release the
    box. This will make it available for Vagrant. You can find all your boxes
-   in the [development tab](/development) of Atlas under the "Boxes" header in the
+   in the [development tab](/development) of Atlas under the "Boxes" header in the 
    left navigation bar.
 
 Once you've created and released a box, you can release new versions of
 the box by clicking "Create New Version" under the versions dropdown of
 a box page. For more information on the release lifecycle of boxes, see
 the [help page dedicated to it](/help/boxes/lifecycle).
+
+To distribute the box to your team, update your Vagrantfile to reference the
+box on Atlas.
+
+	Vagrant.configure(2) do |config|
+	  config.vm.box = "<username>/<boxname>"
+	end
+
+Now when a team member runs `vagrant up`, the box will be downloaded from Atlas.
+If the box is private, the team member will be prompted to authorize access. Users
+are granted access to private resources by logging in with an Atlas username and
+password or by using a shared Atlas token.
+[Learn more about authorization options here](/help/account-management/command-line-login).
