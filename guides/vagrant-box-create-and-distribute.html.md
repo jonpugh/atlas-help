@@ -35,6 +35,7 @@ Upload box:
 ![Upload box](/help-images/edit-box-provider.png)
 
 Release box:
+![Update version and release box](/help-images/update-version-and-release-box.png)
 
 
 You can find all your boxes in the [development tab](/development)
