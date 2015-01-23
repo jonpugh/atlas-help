@@ -70,6 +70,16 @@ The complete Terraform configuration should now look as below.
 	        lb_protocol = "http"
 	    }
 
+	    health_check {
+	      healthy_threshold = 2
+	      unhealthy_threshold = 2
+	      timeout = 5
+	      target = "TCP:80"
+	      interval = 10
+	    }
+
+	    security_groups = ["${aws_security_group.allow_all.id}"]
+
 	    # The instances are registered automatically
 	    instances = ["${aws_instance.web.*.id}"]
 	}
@@ -96,7 +106,7 @@ The complete Terraform configuration should now look as below.
 	}
 
 
-Notice in the `aws_instance` resource now references the artifact stored in Atlas. The web resource has an additional field `security_groups`, which references the security group that allows traffic to access the servers.
+Notice in the `aws_instance` resource now references the artifact stored in Atlas. The web resource and load balancer have an additional field `security_groups`, which references the security group that allows traffic to access the servers.
 
 Now, when you run `terraform apply`, it will reference the proper AMI stored in Atlas that is configured with Apache.
 
