@@ -61,7 +61,7 @@ Now that the application is stored in Atlas, we can reference the data in the bu
 	    "post-processors": [
 	      {
 	        "type": "atlas",
-	        "artifact": "<username>/atlas-example",
+	        "artifact": "<username>/example-artifact",
 	        "artifact_type": "aws.ami",
 	        "metadata": {
 	          "created_at": "{{timestamp}}"
