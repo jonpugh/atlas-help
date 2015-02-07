@@ -11,7 +11,8 @@ Services are deployed using an artifact which can be created at different granul
 An artifact could be an ISO for a physical machine, VM image, AWS AMI, or Docker container.
 For example you can create AWS AMI for a web service, database, load balancer, etc.
 A Packer template defines what software is installed on the machine image.
-Below is the Packer template from the [example repo](https://github.com/hashicorp/atlas-examples/tree/master/getting-started) that creates an AMI for a web server with Apache installed:
+
+The file `ops/example-template.json` from the [example repo](https://github.com/hashicorp/atlas-examples/tree/master/getting-started) is a Packer template that creates an AMI for a web server with Apache installed:
 
 	{
 	    "builders": [{
